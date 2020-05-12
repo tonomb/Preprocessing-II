@@ -10,10 +10,25 @@
     width: 100%;
     margin: 0 auto;
 
+   @media @mobil{
+       flex-direction: column;
+   }
+
+   .header-title{
+       
+        @media @mobil{
+         margin: 4% 0;   
+        }
+   }
+
     .header-nav{
         width: 60%;
         display: flex;
         justify-content: space-around;
+
+        @media @mobil{
+         margin: 2% 0;   
+        }
     }
 
     .header-nav-link{
