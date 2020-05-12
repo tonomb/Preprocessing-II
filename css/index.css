@@ -252,3 +252,18 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .btn {
+  display: block;
+  width: 100%;
+  color: white;
+  background-color: teal;
+  border-radius: 18px;
+  font-size: 2rem;
+  padding: 5%;
+  text-align: center;
+}
+.home .content-pick .btn:hover {
+  background-color: white;
+  border: 2px solid teal;
+  color: teal;
+}
