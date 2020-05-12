@@ -168,6 +168,22 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5% 0;
+}
+.header .header-nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+.header .header-nav-link {
+  font-size: 1.7rem;
+  color: #212529;
+  text-decoration: none;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
