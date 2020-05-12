@@ -208,6 +208,39 @@ img {
   color: #212529;
   text-decoration: none;
 }
+.contact-us .contact-form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-us .contact-form label {
+  font-size: 1.7rem;
+  margin: 1% 0;
+}
+.contact-us .contact-form input,
+.contact-us .contact-form textarea {
+  font-size: 1.7rem;
+  margin-bottom: 16px;
+  border: 1px solid teal;
+}
+.contact-us .contact-form .btn {
+  display: block;
+  width: 30%;
+  color: teal;
+  background-color: white;
+  border-radius: 18px;
+  font-size: 2rem;
+  padding: 5%;
+  text-align: center;
+  margin: 2% 0;
+  align-self: flex-end;
+  padding: 1%;
+  border: 2px solid teal;
+}
+.contact-us .contact-form .btn:hover {
+  background-color: teal;
+  border: 2px solid white;
+  color: white;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
